@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "delay.h": "c",
+        "kthread.h": "c",
+        "printk.h": "c",
+        "ratelimit_types.h": "c",
+        "sha.h": "c",
+        "evp.h": "c",
+        "fs.h": "c",
+        "mkmint.h": "c",
+        "functional": "c"
+    }
+}

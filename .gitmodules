@@ -1,0 +1,9 @@
+[submodule "linux"]
+	path = linux
+	url = https://github.com/leongross/linux.git
+[submodule "3rdparty/buildroot"]
+	path = 3rdparty/buildroot
+	url = https://github.com/buildroot/buildroot.git
+[submodule "3rdparty/busybox"]
+	path = 3rdparty/busybox
+	url = https://github.com/mirror/busybox.git

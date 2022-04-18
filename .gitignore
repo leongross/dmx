@@ -1,0 +1,44 @@
+# rust
+debug/
+target/
+
+# kernel
+*.a
+*.order
+*.symvers
+*.cmd
+*.ko
+*.mod*
+*.o
+
+# buildroot
+*.ext2
+*.ext3
+*.ext4
+qemu/share/
+
+*.o.d
+*.expand
+*.old
+
+# dont track outout builds or changes in buildroot, since config is saved in config/
+3rdparty/*
+
+# ignore binaries
+c/code/mkmint/mkmin
+
+# kernel source
+c/code/linux.5.14-arch-1/
+
+test_range/
+*.qcow2
+
+# overlay
+qemu/overlay/benchmarks/debug.sh
+qemu/overlay/rand.bin
+qemu/overlay/modules/
+qemu/overlay/*
+
+*.img
+
+*package.json
